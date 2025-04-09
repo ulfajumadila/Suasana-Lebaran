@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Sidebar</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <dic class="wrapper">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#" onclick="showContent('home')">Home</a><li>
+                <li><a href="#" onclick="showContent('about')">Tentang</a><li>
+                <li><a href="#" onclick="showContent('contact')">Kontak</a><li>
+                <li><a href="#" onclick="showContent('lebaran')">Suasana lebaran</a><li>
+                
+            </ul>
+        </aside>
+        <main class="content">
+            <section id="home"class="content-section">
+                <h1>Selamat datang di Suasana Lebaran.</h1>
+                <p>Ini adalah momen penuh kebahagiaan, di mana keluarga berkumpul dan saling bermaafan.</p>
+                <p>Suasana Lebaran dipenuhi dengan tawa, makanan khas, dan silaturahmi hangat.</p>
+            </section>
+            <section id="about" class="content-section" style="display:none,">
+                <h1> Tentang Suasana Lebaran.</h1>
+                <p>Lebaran merupakan waktu istimewa setelah menjalani bulan Ramadan.</p>
+                <p>Orang-orang saling mengunjungi, mengenakan pakaian terbaik, dan menikmati hidangan spesial bersama keluarga dan teman.</p>
+            </section>
+            <section id="contact" class="content-section" style="display:none,">
+                <h1> Kontak di Momen Lebaran.</h1>
+                <p>Hubungi kami untuk berbagi cerita Lebaran di contact@ulfajumadil05gmail.com.</p>
+                 <p>Atau silakan datang langsung dan rasakan suasana hangat khas Lebaran bersama kami.</p>
+        </section>
+            </section>
+                <section id="lebaran" class="content-section" style="display:none,">
+                    <h1>Suasana Saat Lebaran</h1>
+                    <p>Lebaran adalah momen yang penuh kebahagiaan, berkumpul dengan keluarga, dan menikmati hidangan khas seperti ketupat dan rendang.</p>
+                <p>Suasana penuh suka cita terasa di mana-mana, dari desa hingga kota.</p>
+
+                <div class="lebaran-gallery">
+                    <h1>Gallery Lebaran</h1>
+                    <img src="Gambar WhatsApp 2025-04-06 pukul 20.35.04_1fbfbfcb.jpg"  alt="Foto saya saat lebaran">
+                    <img src="Gambar WhatsApp 2025-04-06 pukul 20.35.03_f0a5e79c.jpg"  alt="Bersama Sepupu">
+
+
+                         
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+    </footer>
+    <script>
+        function showContent(sectionld) {
+            let sections= document.querySelectionAll('.content-section');
+            sections.for
+        }
+    </script>
+    
+</body>
+</html>
